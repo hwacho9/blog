@@ -1,3 +1,7 @@
 export default function Footer() {
-    return <p>{"2024 Tech Blog by Sunghwa Cho | All Right Reserved."}</p>;
+    return (
+        <p className="bg-slate-900 text-white py-2 text-sm text-center">
+            {"Tech Blog by Sunghwa Cho | All Right Reserved."}
+        </p>
+    );
 }

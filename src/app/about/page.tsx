@@ -1,3 +1,3 @@
 export default function AboutPage() {
-    return <p>Its me</p>;
+  return <p>나에대해!</p>;
 }

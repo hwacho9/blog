@@ -1,3 +1,3 @@
 export default function PostsPage() {
-    return <p>Posts</p>;
+  return <p>포스트들!</p>;
 }
