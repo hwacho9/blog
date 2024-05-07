@@ -1,9 +1,9 @@
-import { getAllPosts } from "@/service/posts";
+import { getFeaturedPosts } from "@/service/posts";
 import PostsGrid from "./PostsGrid";
 
 export default async function FeaturedPosts() {
     // read post data
-    const posts = await getAllPosts();
+    const posts = await getFeaturedPosts();
     return (
         <section>
             <h2>Featured Posts</h2>
