@@ -10,7 +10,7 @@ export type Post = {
     featured: boolean;
 };
 
-export async function getFeaturedPosts(): Promise<Post[]> {
+export async function getAllPosts(): Promise<Post[]> {
     //  set file past
     const filePath = path.join(process.cwd(), "data", "posts.json");
     return readFile(filePath, "utf-8")
