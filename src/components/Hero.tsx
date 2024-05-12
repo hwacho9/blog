@@ -6,14 +6,14 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <section className="text-center">
-            <Image
+            {/* <Image
                 src="/images/profile.jpg"
                 alt="Picture of the author "
                 className="transfrom rotate-90 scale-y-[-1] mx-auto rounded-full mt-10"
                 width={200}
                 height={250}
                 priority
-            />
+            /> */}
             <h2 className="text-3xl font-bold mt-10">{"Hi I'm Sunghwa"}</h2>
             <h3 className="text-xl font-semibold">
                 {"I'm a junior in college and I'm majoring in computer science"}
