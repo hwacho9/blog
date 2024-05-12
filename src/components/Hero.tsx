@@ -1,12 +1,13 @@
 import Image from "next/image";
-import profileImage from "../../public/images/profile.jpg";
+// import profileImage from "../../public/images/profile.jpg";
+// import profileImage from "/images/profile.jpg";
 import Link from "next/link";
 
 export default function Hero() {
     return (
         <section className="text-center">
             <Image
-                src={profileImage}
+                src="/images/profile.jpg"
                 alt="Picture of the author "
                 className="transfrom rotate-90 scale-y-[-1] mx-auto rounded-full mt-10"
                 width={200}
